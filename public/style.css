@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "McLaren", sans-serif;
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.heading {
+  padding: 10px 0px 0px 50px;
+  background-color: #f5ba13;
+  height: 10vh;
+  color: aliceblue;
+  /* font-weight: 10; */
+  /* box-shadow: 10px 5px 5px #f5ba13; */
+}
+.main {
+  /* height: 80vh; */
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-left: 50px;
+  display: flex;
+  gap: 2rem;
+}
+.main article {
+  background-color: #f7f1f1;
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgb(224, 203, 203);
+  /* box-shadow: 5px 10px rgb(224, 203, 203); */
+  border-radius: 5px;
+}
+.footer {
+  /* height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  */
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: rgb(196, 187, 187);
+}
