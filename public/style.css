@@ -28,7 +28,7 @@ body {
   display: flex;
   gap: 2rem;
 }
-.main article {
+.main-article {
   background-color: #f7f1f1;
   width: 200px;
   border: 1px solid black;
@@ -36,6 +36,24 @@ body {
   box-shadow: 0 2px 5px rgb(224, 203, 203);
   /* box-shadow: 5px 10px rgb(224, 203, 203); */
   border-radius: 5px;
+}
+.input-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  font-size: 14pt;
+}
+.input-form input {
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.input-form button {
+  height: 30px;
+  width: 40px;
+  font-size: 14pt;
 }
 .footer {
   /* height: 10vh;

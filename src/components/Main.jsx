@@ -10,5 +10,4 @@ function Main(props) {
     </div>
   );
 }
-
 export default Main;
